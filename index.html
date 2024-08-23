@@ -62,45 +62,41 @@
         }
         /* mediaquery for mobile resolution */
         @media screen and (max-width: 320px){
-            #hero-block{margin-top: 130px;}
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{padding-left: 10px;padding-right: 10px;display: flex;justify-content: center;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
         }
         @media screen and (max-width: 375px) and (min-width: 321px){
-            #hero-block{margin-top: 130px;}
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{padding-left: 10px;padding-right: 10px;display: flex;justify-content: center;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
         }
         @media screen and (max-width: 425px) and (min-width: 376px){
-            #hero-block{margin-top: 130px;}
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
         }
         @media screen and (max-width: 768px) and (min-width: 426px){
-            #hero-block{margin-top: 130px;}
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{display: flex;justify-content: center;padding-left: 60px;padding-right: 60px;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
         }
         @media screen and (max-width: 1024px) and (min-width: 769px){
-            #hero-block{margin-top: 130px;}
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 130px;}
         }
         @media screen and (max-width: 1440px) and (min-width: 1025px){
-            #hero-block{margin-top: 50px;}
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}
+            #impactmarketing{position: relative;top: 90px;}
         }
         @media screen and (min-width: 1441px){
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}
+            #impactmarketing{position: relative;top: 90px;}
         }
     </style>
 
@@ -124,12 +120,12 @@
     <!--********************* SITE CONTENT *********************-->
     <!--********************************************************-->
     <div class="site-content home-two">
-       
+
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Start Site Header
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <header class="site-header default-header-style">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-12">
                         <div class="navigation-area">  
@@ -161,7 +157,7 @@
                                         <div class="menu-content">
                                             <ul class="mainmenu">         
                                                 <li>
-                                                    <a class="nav-link active" href="#hero-block">Home</a>
+                                                    <a class="nav-link btn text-white px-4" href="#hero-block" style="border-radius: 30px 0px 30px 30px;background: rgb(163,217,79);background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);">Home</a>
                                                 </li>
                                                 <li>
                                                     <a class="nav-link" href="#about-block">About</a>
@@ -243,76 +239,56 @@
                                         </div> <!-- /.hours-content-->
                                     </div><!-- /.menu-wrapper --> 
                                 </nav>
-                            </div><!--  /.site-navigation -->
+                            </div><!-- /.site-navigation -->
 
-                            <div class="header-navigation-right">
-                                <div class="lets-talk-area">
-                                </div><!--~./ lets-talk-area ~-->
-                            </div><!--~./ header-navigation-right ~-->
-                        </div><!--  /.navigation-area -->
-                    </div><!--  /.col-12 -->
-                </div><!--  /.row -->
-            </div><!--  /.container-fluid -->
+                            <div class="social-status" id="social-status2">
+                                <a href="https://www.facebook.com/profile.php?id=61555386556671"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/alpha_hues"><i class="fa fa-instagram"></i></a>
+                                <a href="https://wa.me/6382562643?text=I'm%20interested%20in%20your%20services"><i class="fa fa-whatsapp"></i></a>
+                                <a href="https://www.linkedin.com/company/alphahues"><i class="fa fa-linkedin"></i></a>
+                            </div><!-- /.social-status-->
+                        </div><!-- /.navigation-area -->
+                    </div><!-- /.col-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
         </header><!--~~./ end site header ~~-->
+
         <!--~~~ Sticky Header ~~~-->
         <div id="sticky-header"></div><!--~./ end sticky header ~-->
         
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Hero Block
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div id="hero-block" class="hero-block style-three pd-b-15" style="overflow-x: visible;">
-             <div class="container">
-                 <div class="row align-items-center">
-                     <div class="col-lg-7 order-md-1 order-lg-1">
-                         <div class="hero-content-area">
-                             <h2 class="hero-title mrb-35">Leading<span> Digital Marketing</span> Agency In Chennai</h2><!-- /.hero-title -->
-                             <div class="hero-desc">
-                                 <p>Fuelling business like yous with innovative advertising and branding solutions, we ignite your business ideas, transforming them into market-defining success. If your business idea is fire, we're the gasoline that makes it burn brighter.</p>
-                             </div><!-- /.hero-desc -->
-                             <div class="hero-block-bottom">
-                                <div class="app-btn-group">
-                                     <a class="btn btn-default btn-primary btn-app" href="https://wa.me/6382562643?text=I'm%20interested%20in%20your%20services">
-                                         <div class="icon">
-                                             <img src="assets/images/icon/whatsapp.svg" alt="img">
-                                         </div>
-                                         <div class="btn-text">
-                                             <span>Whatsapp us</span>
-                                         </div>
-                                     </a>
-                                     <a class="btn btn-default btn-app" href="javascript:" id="ourservicebutton">
-                                         <div class="icon">
-                                             <img src="assets/images/icon/Services.svg" alt="img">
-                                         </div>
-                                         <div class="btn-text">
-                                             <span>Our Services</span>
-                                         </div>
-                                     </a>
-                                 </div><!--~./ end app btn group ~-->
-                             </div><!-- /.hero-block-bottom -->
-                         </div><!-- /.hero-content-area -->
-                     </div><!-- /.col-lg-7 -->
- 
-                     <div class="col-lg-5 order-md-2 order-lg-2" >
-                         <div class="hero-thumbnail-group">
-                             <figure class="hero-thumb">
-                                 <img src="assets/images/others/hero3/OutdoorAdvertising3.svg" alt="Thumbnail">
-                             </figure>
-                             <figure class="hero-thumb">
-                                 <img src="assets/images/others/hero3/OutdoorAdvertising2.svg" alt="Thumbnail">
-                             </figure>
-                             <figure class="hero-thumb">
-                                 <img src="assets/images/others/hero3/OutdoorAdvertising1.svg" alt="Thumbnail">
-                             </figure>
-                         </div><!-- /.hero-thumbnail-area -->
-                     </div><!-- /.col-lg-5 -->
-                 </div><!-- /.row -->
-             </div><!-- /.container -->
-         </div><!-- /.hero-block -->
+        <div id="hero-block" class="hero-block style-one bg-image-right pd-t-255 mrb-175">
+            <div class="hero-shape-overlay bg-image-100" style="background-image: url('assets/images/bg/Homescreen.svg')"></div>
+            <div class="container" id="impactmarketing">
+                <div class="row justify-content-end">
+                    <div class="col-lg-5">
+                        <div class="hero-content-area">
+                            <h2 class="hero-title mrb-20">IMPACT <br> MARKETING</h2><!-- /.hero-title -->
+                            <div class="section-title">
+                                <h4 class="title-sub" style="font-size: 41px;">We’ve been doing this<br>for a Decade</h4><!--  /.title-sub -->
+                                <p>Fuelling business like yous with innovative advertising and branding solutions, we ignite your business ideas, transforming them into market-defining success. If your business idea is fire, we’re the gasoline that makes it burn brighter.</p>
+                            </div><!-- /.section-title -->
+                            </div><!-- /.hero-block-bottom -->
+                        </div><!-- /.hero-content-area -->
+                    </div><!-- /.col-lg-6 -->
+
+                    <div class="col-lg-12">
+                        <div class="hero-block-bottom mrt-35">
+                            <div class="form-group-btn pd-l-25">
+
+                            </div><!-- /.form-group-btn -->
+                        </div><!-- /.hero-block-bottom -->
+                    </div><!-- /.col-lg-12 -->
+                </div><!--  /.row -->
+            </div><!--  /.container -->
+        </div><!-- /.hero-block -->
 
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Start Work brand Block
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div class="work-brand-block mrb-200">
+        <div class="work-brand-block mrb-150 pd-t-200">
             <div class="container ml-t-15 ml-b-10">
                 <div class="row">
                     <div class="col-12">
@@ -371,8 +347,8 @@
                     </div><!-- /.col-lg-7 -->
                     <div class="col-lg-5">
                         <div class="section-title">
-                            <h4 class="title-sub">Company profile</h4><!--  /.title-sub -->
-                            <h2 class="title-main">Content marketing is a commitment, not a campaign</h2><!-- /.title-main -->
+                            <h4 class="title-sub">company profile</h4><!--  /.title-sub -->
+                            <h2 class="title-main">MARKETING IS A COMMITEMENT, NOT A CAMPAIGN</h2><!-- /.title-main -->
                         </div><!-- /.section-title -->
                         <div class="block-content-info about-content">
                             <div class="quote-icon">
@@ -383,10 +359,10 @@
                                 Nestled in the heart of Chennai, we pride ourselves on crafting visual stories that not only captivate but also connect deeply with your target audience. <br><br>
                                 
                                 Our approach is grounded in simplicity and innovation. We believe that great design speaks volumes and strive to deliver clear, impactful, and memorable brand experiences. Whether you're looking to launch a new product, refresh your website, or boost your online presence, our team is here to turn your vision into reality.</p>
+                                <div class="author-sign">
+                                    <img src="assets/images/icon/sign.png" alt="Author Sign" />
+                                </div>
                             <h4 class="author-name mrb-40">Daniel, <span>Business Director</span></h4>
-                            <div class="author-sign">
-                                <img src="assets/images/icon/sign.png" alt="Author Sign" />
-                            </div>
                         </div><!-- /.about-content -->
                     </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->
@@ -401,10 +377,10 @@
         <div id="service-block" class="service-block mrb-190">
             <div class="container ml-b-50">
                 <!-- Title Row -->
-                <div class="row align-items-center  justify-content-between">
+                <div class="row justify-content-between">
                     <div class="col-lg-5" data-animate="hg-fadeInUp" data-duration="1.0s"  data-offset="100">
                         <div class="section-title">
-                            <h4 class="title-sub">OUR SERVICES</h4><!--  /.title-sub -->
+                            <h4 class="title-sub">our services</h4><!--  /.title-sub -->
                             <h2 class="title-main">People don’t buy what you do, they buy why you do it.</h2><!-- /.title-main -->
                         </div><!-- /.section-title -->
                         <div class="block-content-info">
@@ -415,62 +391,62 @@
                     <div class="col-lg-6 p-3" id="homeservices">
                         <div class="service-card-list" >
                             <div class="row " id="adjustrowservice">
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="./Branding.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="./Branding.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/press-day.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Branding</center></h6>
                                     </div>
                                 </a>
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="./Designing.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="./Designing.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/digital-art.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Designing</center></h6>
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="posters.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="posters.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/poster.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Posters</center></h6>
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="./Hoardings.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="./Hoardings.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/billboard.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Hoardings</center></h6>
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="./Illustration.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="./Illustration.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/digital.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Illustration</center></h6>
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="Brouchers.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="Brouchers.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/paper.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Brouchers</center></h6>
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="./BusAdvertising.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="./BusAdvertising.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/bus-journey.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Bus <br>Advertising</center></h6>
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border tvad" href="TvAdvertising.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border tvad" href="TvAdvertising.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/tv.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Tv <br>Advertising</center></h6>
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 bg-light shadow m-2 h-50 rounded border" href="./AutoRickshaw.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border" href="./AutoRickshaw.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/mini-car.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Auto <br> Branding</center></h6>
@@ -686,19 +662,19 @@
             Start Innovation Block
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <div id="innovation-block" class="innovation-block innovation-block-one mrb-195">
-            <div class="container-fluid pd-r-0">
+            <div class="container pd-r-0">
                 <!-- Title Row -->
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-lg-6">
                         <div class="innovation-contant-area">
                             <div class="section-title">
-                                <h4 class="title-sub">cases study</h4><!--  /.title-sub -->
+                                <h4 class="title-sub">case study</h4><!--  /.title-sub -->
                                 <h2 class="title-main">Business has only two functions are marketing and innovation</h2><!-- /.title-main -->
                             </div><!-- /.section-title -->
                         </div><!-- /.innovation-contant-area -->
                     </div><!-- /.col-lg-5 -->
 
-                    <div id="carouselExampleControls" class="carousel slide col-lg-4" data-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide col-lg-6" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img class="d-block w-100" src="assets/images/portfolio/innovation/1/Innovation1.svg" alt="First slide">
@@ -720,9 +696,9 @@
         <div class="work-process-block mrb-200">
             <div class="container ml-b-40">
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-8">
+                    <div class="col-lg-9 col-md-10">
                         <div class="section-title text-center" data-animate="hg-fadeInUp" data-duration="1.0s" data-offset="100">
-                            <h4 class="title-sub">STREAMLINED FOR SIMPLICITY</h4><!--  /.title-sub -->
+                            <h4 class="title-sub">streamlined for simplicity</h4><!--  /.title-sub -->
                             <h2 class="title-main">Our workflow eliminates complexity to ensure clarity and swift execution</h2><!-- /.title-main -->
                             <div class="divider">
                                 
@@ -889,7 +865,7 @@
         <section class="ftco-section" id="contact-block">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-8">
+                    <div class="col-lg-9 col-md-10">
                         <div class="section-title text-center" data-animate="hg-fadeInUp" data-duration="1.0s" data-offset="100">
                             <h4 class="title-sub">Get in Touch with Alphahues in Chennai</h4><!--  /.title-sub -->
                             <p>Contact us today to discuss your marketing and advertising goals in Chennai</p><!-- /.title-main -->
@@ -950,7 +926,7 @@
                                                         <textarea name="message" class="form-control" id="message" cols="30" rows="4"></textarea>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12">
+                                                <div class="col-md-12 mt-4">
                                                     <div class="form-group">
                                                         <input type="submit" value="Send Message" class="btn btn-primary btn-default" name="submit">
                                                         <div class="submitting" style="display:none;">Sending...</div>
