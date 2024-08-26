@@ -85,18 +85,21 @@
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 130px;}
+
         }
         @media screen and (max-width: 1440px) and (min-width: 1025px){
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}
             #impactmarketing{position: relative;top: 90px;}
+            #navhome{border-radius: 30px 0px 30px 30px;background: rgb(163,217,79);background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);}
         }
         @media screen and (min-width: 1441px){
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}
             #impactmarketing{position: relative;top: 90px;}
+            #navhome{border-radius: 30px 0px 30px 30px;background: rgb(163,217,79);background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);}
         }
     </style>
 
@@ -157,7 +160,7 @@
                                         <div class="menu-content">
                                             <ul class="mainmenu">         
                                                 <li>
-                                                    <a class="nav-link btn text-white px-4" href="#hero-block" style="border-radius: 30px 0px 30px 30px;background: rgb(163,217,79);background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);">Home</a>
+                                                    <a id="navhome" class="nav-link text-white" href="#hero-block">Home</a>
                                                 </li>
                                                 <li>
                                                     <a class="nav-link" href="#about-block">About</a>
@@ -267,7 +270,7 @@
                         <div class="hero-content-area">
                             <h2 class="hero-title mrb-20">IMPACT <br> MARKETING</h2><!-- /.hero-title -->
                             <div class="section-title">
-                                <h4 class="title-sub" style="font-size: 41px;">We’ve been doing this<br>for a Decade</h4><!--  /.title-sub -->
+                                <h4 style="font-size: 41px;color: #33BE8F;">We’ve been doing this<br>for a Decade</h4><!--  /.title-sub -->
                                 <p>Fuelling business like yous with innovative advertising and branding solutions, we ignite your business ideas, transforming them into market-defining success. If your business idea is fire, we’re the gasoline that makes it burn brighter.</p>
                             </div><!-- /.section-title -->
                             </div><!-- /.hero-block-bottom -->
@@ -284,53 +287,6 @@
                 </div><!--  /.row -->
             </div><!--  /.container -->
         </div><!-- /.hero-block -->
-
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            Start Work brand Block
-        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div class="work-brand-block mrb-150 pd-t-200">
-            <div class="container ml-t-15 ml-b-10">
-                <div class="row">
-                    <div class="col-12">
-                        <div id="ourclientheading" class="mt-5">
-                        <div class="section-title d-flex justify-content-center">
-                            <h4 class="title-main" style="color: #f94f4f;font-size: 18px;">OUR CLIENTS</h4><!--  /.title-sub -->
-                        </div><!-- /.section-title -->
-                        </div>
-                        <!--~~ Start Brands Carousel ~~-->
-                        <div class="brands-carousel owl-carousel">
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client1.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client2.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client3.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client4.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client5.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client6.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client7.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client8.svg" alt="logo">
-                            </div>
-                            <div class="brands-link">
-                                <img src="assets/images/brand/Client9.svg" alt="logo">
-                            </div>
-                        </div><!--~./ end brands carousel ~-->
-                    </div>
-                </div>
-            </div>
-        </div><!--~./ end popular brands block ~--> 
         
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Start About Us Block
@@ -339,31 +295,25 @@
         <div id="about-block" class="about-us-block mrb-190">
             <div class="container">
                 <!-- Title Row -->
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="mock-up-thumb reveal-right">
-                            <img src="assets/images/others/about.png" alt="About Mock" />
-                        </div><!-- /.mock-up-block -->
-                    </div><!-- /.col-lg-7 -->
-                    <div class="col-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <center>
+                        <img src="./assets/images/icon/AdvertiseLogo.svg" alt="" style="background-color: #024162;height: 65px;width: 65px;padding: 10px;border-radius: 20px;margin-bottom: 25px;">
                         <div class="section-title">
                             <h4 class="title-sub">company profile</h4><!--  /.title-sub -->
-                            <h2 class="title-main">MARKETING IS A COMMITEMENT, NOT A CAMPAIGN</h2><!-- /.title-main -->
+                            <h2 class="title-main">MARKETING IS A COMMITEMENT, <br> NOT A CAMPAIGN</h2><!-- /.title-main -->
                         </div><!-- /.section-title -->
-                        <div class="block-content-info about-content">
-                            <div class="quote-icon">
-                                <img src="assets/images/icon/quote.png" alt="" />
-                            </div>
+                        <div class="block-content-info about-content col-8">
                             <p class="description mrb-55">At Alphahues, we're dedicated to elevating your brand with exceptional graphic design, strategic branding, and effective digital marketing solutions. <br><br>
 
                                 Nestled in the heart of Chennai, we pride ourselves on crafting visual stories that not only captivate but also connect deeply with your target audience. <br><br>
                                 
                                 Our approach is grounded in simplicity and innovation. We believe that great design speaks volumes and strive to deliver clear, impactful, and memorable brand experiences. Whether you're looking to launch a new product, refresh your website, or boost your online presence, our team is here to turn your vision into reality.</p>
-                                <div class="author-sign">
-                                    <img src="assets/images/icon/sign.png" alt="Author Sign" />
-                                </div>
-                            <h4 class="author-name mrb-40">Daniel, <span>Business Director</span></h4>
                         </div><!-- /.about-content -->
+                        <div class="pd-t-40">
+                            <a href="https://wa.me/6382562643?text=I'm%20interested%20in%20your%20services"  class="btn btn-default">Contact us</a>
+                        </div><!-- /.show-more -->
+                        </center>
                     </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
