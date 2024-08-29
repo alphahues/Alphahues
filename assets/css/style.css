@@ -97,8 +97,11 @@ Version: 1.0
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+*{
+  overflow-x: clip;
+}
 html {
-  font-size: 100%;
+  font-size: 100%; 
 }
 
 @font-face {
@@ -245,28 +248,28 @@ h4 a:hover {
   font-size: 65px;
   position: relative;
   z-index: 2;
-  line-height: 1.25em;
   color: #024162;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1199px) {
   .section-title .title-main {
-    font-size: 36px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 991px) {
   .section-title .title-main {
-    font-size: 32px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .section-title .title-main {
-    font-size: 28px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 575px) {
   .section-title .title-main {
-    font-size: 24px;
+    font-size: 35px;
+    line-height: 40px;
   }
 }
 .section-title .title-main > span {
@@ -2161,6 +2164,34 @@ img {
   z-index: 0;
 }
 
+.bg-image-200 {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.bg-image-300 {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 1080px;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+
 .hg-background {
   bottom: 0;
   left: 0;
@@ -3804,8 +3835,7 @@ input::-moz-focus-inner {
   color: white;
   background: rgb(163,217,79);
 background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);
-  -webkit-box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
-  box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
+
 }
 @media only screen and (max-width: 767px) {
   .btn-default {
@@ -4775,13 +4805,13 @@ object {
   height: 20px;
 }
 #sticky-header .site-header.header-style-one .header-navigation-right .contact-info {
-  color: #293b5f;
+  color: #024162;
 }
 #sticky-header .site-header.header-style-two {
-  background-color: #1d1855;
+  background-color: #024162;
 }
 #sticky-header .site-header.header-style-three {
-  background-color: #1d1556;
+  background-color: #024162;
 }
 #sticky-header .site-header.header-style-three .navigation-area {
   -webkit-box-pack: justify;
@@ -4920,7 +4950,7 @@ a:hover, a:active {
   }
   .navigation .mainmenu li > a > .menu-arrow {
     position: absolute;
-    color: rgba(41, 59, 95, 0.6);
+    color: #293b5f;
     font-size: 13px;
     right: 5px;
     top: 50%;
@@ -5087,13 +5117,17 @@ a:hover, a:active {
   }
 
   /* Default Color */
-  .mainmenu li:hover > a,
-  .mainmenu > li > a:hover,
+  /* .mainmenu li:hover > a,
+  .mainmenu > li > a:hover, */
   .mainmenu > li > a.active {
     background-color: transparent;
     text-decoration: none;
-    color: #33BE8F;
+    color: white;
+    background: rgb(163,217,79);
+    background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);
+    border-radius: 30px 0px 30px 30px;
   }
+  
 
   .mainmenu .sub-menu > li > a:hover,
   .mainmenu .sub-menu .sub-menu > li > a:hover,
@@ -5910,7 +5944,7 @@ a:hover, a:active {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .navigation.menuopen .mainmenu > li > a.active, .navigation.menuopen .mainmenu > li > a:hover {
-  color: #f94f4f;
+  color: #33BE8F;
   padding-left: 25px;
 }
 .navigation.menuopen ul.mainmenu {
@@ -6433,7 +6467,7 @@ a:hover, a:active {
 }
 @media only screen and (max-width: 575px) {
   .hero-block .hero-title {
-    font-size: 28px;
+    font-size: 45px;
   }
 }
 .hero-block .hero-title > span {
@@ -6552,7 +6586,7 @@ a:hover, a:active {
     margin-bottom: 100px;
   }
   .hero-block.style-one .hero-shape-overlay {
-    display: none;
+    /* display: none; */
   }
   .hero-block.style-one .hero-block-bottom .form-group-btn {
     min-height: 80px;
@@ -8597,8 +8631,6 @@ a:hover, a:active {
   color: white;
   background: rgb(163,217,79);
   background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);
-  -webkit-box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
-  box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
 }
 @media only screen and (max-width: 1199px) {
   .portfolio-filter li a {
@@ -13998,29 +14030,29 @@ textarea.form-control {
     font-size: 22px;
     position: relative;
     z-index: 2;
-    line-height: 2em;
-    color: #293b5f;
+    line-height: 1.5em;
+    color: #024162;
   }
   .title-mainscontact {
     font-weight: 400;
     font-size:20px;
     position: relative;
     z-index: 2;
-    line-height: 2em;
-    color: #293b5f;
+    line-height: 1.5em;
+    color: #024162;
   }
   .btn-service {
     height: 40px;
     line-height: 60px;
-    border-radius: 5px 5px 5px 5px;
     letter-spacing: -0.02em;
     color: white;
     background-color: #f75d5dee;
     -webkit-box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
     box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
   }
-  #about-block{
-    position: relative;
-    margin-top: 200px;
+  .customGreenColor{
+    color: #33BE8F;
+    font-weight: 600;
   }
-  
+
+

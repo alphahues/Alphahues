@@ -43,10 +43,12 @@
         @media screen and (max-width: 1199px){
             #logo1{display: none;}
             #social-status2{display: none;}
+            .social-status a{color: #024162;}
         }
         @media screen and (min-width: 1200px){
             #logo2{display: none;} 
             #social-status1{display: none;}   
+            .social-status a{color: #ffff;}
         }
         @media screen and (max-width: 369px)
         {
@@ -65,42 +67,134 @@
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{padding-left: 10px;padding-right: 10px;display: flex;justify-content: center;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
+            #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 375px) and (min-width: 321px){
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{padding-left: 10px;padding-right: 10px;display: flex;justify-content: center;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
+            #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 425px) and (min-width: 376px){
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
+            #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 768px) and (min-width: 426px){
             #serviceanimation{height: 100px;width: 100px;}
             #adjustrowservice{display: flex;justify-content: center;padding-left: 60px;padding-right: 60px;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
+            #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 1024px) and (min-width: 769px){
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 130px;}
-
+            #clientadjustment{margin-top: 100px;} 
         }
         @media screen and (max-width: 1440px) and (min-width: 1025px){
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}
-            #impactmarketing{position: relative;top: 90px;}
-            #navhome{border-radius: 30px 0px 30px 30px;background: rgb(163,217,79);background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);}
         }
         @media screen and (min-width: 1441px){
             #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
-            #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}
-            #impactmarketing{position: relative;top: 90px;}
-            #navhome{border-radius: 30px 0px 30px 30px;background: rgb(163,217,79);background: linear-gradient(45deg, rgba(163,217,79,1) 0%, rgba(54,177,148,1) 100%);}
+            #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}    
         }
+        /* responsive home image */
+        @media screen and (max-width: 500px){
+            .bg-image-300{display: none;}
+            .bg-image-200{display: none;} 
+            .bg-image-100{height: 950px;}
+            #break{display: none;}             
+        }
+        @media screen and (max-width: 750px) and (min-width: 500px){
+            .bg-image-300{display: none;}
+            .bg-image-200{display: none;} 
+            .bg-image-100{height: 1100px;}
+            #break{display: none;}             
+        }
+        @media screen and (max-width: 991px) and (min-width: 750px){
+            .bg-image-300{display: none;}
+            .bg-image-200{display: none;} 
+            .bg-image-100{height: 1180px;}
+            #break{display: none;}   
+            /* #clientadjustment{margin-top: 100px;}  */    
+        }
+        @media screen and (max-width: 1000px) and (min-width: 992px){
+            .bg-image-200{height: 600px;top: 100px;}
+            .bg-image-300{display: none;} 
+            .bg-image-100{height: 900px;} 
+            #break{display: none;} 
+            #impactmarketing{position: relative;top: 130px;}
+            #clientadjustment{margin-top: 400px;} 
+        
+        }
+        @media screen and (max-width: 1100px) and (min-width: 1000px){
+            .bg-image-200{height: 600px;top: 100px;}
+            .bg-image-300{display: none;}  
+            .bg-image-100{height: 900px;} 
+            #break{display: none;} 
+            #impactmarketing{position: relative;top: 130px;}
+            #clientadjustment{margin-top: 400px;} 
+        }
+        @media screen and (max-width: 1200px) and (min-width: 1100px){
+            .bg-image-200{height: 700px;top: 100px;}
+            .bg-image-300{display: none;} 
+            #break{display: none;} 
+            #impactmarketing{position: relative;top: 180px;}
+            #clientadjustment{margin-top: 500px;} 
+        }
+        @media screen and (max-width: 1300px) and (min-width: 1200px){
+            .bg-image-200{height: 750px;top: 80px;} 
+            .bg-image-300{display: none;}  
+            #impactmarketing{position: relative;top: 200px;}
+            #clientadjustment{margin-top: 500px;} 
+        }
+        @media screen and (max-width: 1400px) and (min-width: 1300px){
+            .bg-image-200{height: 800px;top: 60px;}
+            .bg-image-300{display: none;}     
+            #impactmarketing{position: relative;top: 200px;}
+            #clientadjustment{margin-top: 500px;} 
+ 
+        }
+        @media screen and (max-width: 1500px) and (min-width: 1400px){
+            .bg-image-200{height: 900px;top: 50px;} 
+            .bg-image-300{display: none;}   
+            #impactmarketing{position: relative;top: 250px;}
+            #clientadjustment{margin-top: 500px;} 
+        }
+        @media screen and (max-width: 1600px) and (min-width: 1500px){
+            .bg-image-200{height: 950px;}
+            .bg-image-300{display: none;} 
+            #impactmarketing{position: relative;top: 250px;}
+            #clientadjustment{margin-top: 500px;} 
+        }
+        @media screen and (max-width: 1800px) and (min-width: 1600px){
+            .bg-image-200{height: 1050px;}
+            .bg-image-300{display: none;} 
+            #impactmarketing{position: relative;top: 250px;}
+            #clientadjustment{margin-top: 500px;} 
+        }
+        @media screen and (max-width: 2000px) and (min-width: 1800px){
+            .bg-image-200{height: 1080px;}
+            .bg-image-300{display: none;} 
+            #impactmarketing{position: relative;top: 250px;}
+            #clientadjustment{margin-top: 500px;} 
+        }
+        @media screen and (min-width: 2000px){
+            .bg-image-200{height: 1080px;}
+            .bg-image-300{display: none;} 
+            #impactmarketing{position: relative;top: 250px;}
+            #clientadjustment{margin-top: 500px;} 
+
+        }
+        @media screen and (min-width: 992px){
+            #hero-thumbnail-area{display: none;}
+        }
+        
     </style>
 
     <script src="assets/js/modernizr.min.js"></script>
@@ -160,7 +254,7 @@
                                         <div class="menu-content">
                                             <ul class="mainmenu">         
                                                 <li>
-                                                    <a id="navhome" class="nav-link text-white" href="#hero-block">Home</a>
+                                                    <a id="navhome" class="nav-link" href="#hero-block">Home</a>
                                                 </li>
                                                 <li>
                                                     <a class="nav-link" href="#about-block">About</a>
@@ -262,31 +356,79 @@
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Hero Block
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div id="hero-block" class="hero-block style-one bg-image-right pd-t-255 mrb-175">
-            <div class="hero-shape-overlay bg-image-100" style="background-image: url('assets/images/bg/Homescreen.svg')"></div>
+        <div id="hero-block" class="hero-block style-one bg-image-right pd-t-50 mrb-175">
+            <div class="hero-shape-overlay bg-image-100" style="background-image: url('assets/images/bg/bg.svg')"></div>
+            <div class="hero-shape-overlay bg-image-200" style="background-image: url('assets/images/bg/Group\ 9.svg')"></div>
+            <div class="hero-shape-overlay bg-image-300" style="background-image: url('assets/images/bg/Group\ 8.svg')"></div>
             <div class="container" id="impactmarketing">
                 <div class="row justify-content-end">
-                    <div class="col-lg-5">
+                    <div class="col-lg-6" id="hero-thumbnail-area">
+                        <div class="hero-thumbnail-area">
+                            <figure class="hero-thumb">
+                                <img src="assets/images/bg/Group 8.svg" alt="Thumbnail">
+                            </figure>
+                        </div><!-- /.hero-thumbnail-area -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-5 mt-5">
                         <div class="hero-content-area">
                             <h2 class="hero-title mrb-20">IMPACT <br> MARKETING</h2><!-- /.hero-title -->
                             <div class="section-title">
-                                <h4 style="font-size: 41px;color: #33BE8F;">We’ve been doing this<br>for a Decade</h4><!--  /.title-sub -->
+                                <h4 style="font-size: 41px;color: #33BE8F;">We’ve been doing this<br id="break"> for a Decade</h4><!--  /.title-sub -->
                                 <p>Fuelling business like yous with innovative advertising and branding solutions, we ignite your business ideas, transforming them into market-defining success. If your business idea is fire, we’re the gasoline that makes it burn brighter.</p>
                             </div><!-- /.section-title -->
                             </div><!-- /.hero-block-bottom -->
                         </div><!-- /.hero-content-area -->
                     </div><!-- /.col-lg-6 -->
-
-                    <div class="col-lg-12">
-                        <div class="hero-block-bottom mrt-35">
-                            <div class="form-group-btn pd-l-25">
-
-                            </div><!-- /.form-group-btn -->
-                        </div><!-- /.hero-block-bottom -->
-                    </div><!-- /.col-lg-12 -->
                 </div><!--  /.row -->
             </div><!--  /.container -->
         </div><!-- /.hero-block -->
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Work brand Block
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="work-brand-block mrb-150" id="clientadjustment">
+            <div class="container ml-t-15 ml-b-10">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="ourclientheading" class="mt-5">
+                        <div class="section-title d-flex justify-content-center">
+                            <h4 class="title-sub" style="color: #33BE8F;">our clients</h4><!--  /.title-sub -->
+                        </div><!-- /.section-title -->
+                        </div>
+                        <!--~~ Start Brands Carousel ~~-->
+                        <div class="brands-carousel owl-carousel">
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client1.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client2.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client3.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client4.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client5.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client6.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client7.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client8.svg" alt="logo">
+                            </div>
+                            <div class="brands-link">
+                                <img src="assets/images/brand/Client9.svg" alt="logo">
+                            </div>
+                        </div><!--~./ end brands carousel ~-->
+                    </div>
+                </div>
+            </div>
+        </div><!--~./ end popular brands block ~--> 
         
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             Start About Us Block
@@ -303,7 +445,7 @@
                             <h4 class="title-sub">company profile</h4><!--  /.title-sub -->
                             <h2 class="title-main">MARKETING IS A COMMITEMENT, <br> NOT A CAMPAIGN</h2><!-- /.title-main -->
                         </div><!-- /.section-title -->
-                        <div class="block-content-info about-content col-8">
+                        <div class="block-content-info about-content col-12">
                             <p class="description mrb-55">At Alphahues, we're dedicated to elevating your brand with exceptional graphic design, strategic branding, and effective digital marketing solutions. <br><br>
 
                                 Nestled in the heart of Chennai, we pride ourselves on crafting visual stories that not only captivate but also connect deeply with your target audience. <br><br>
@@ -646,7 +788,7 @@
         <div class="work-process-block mrb-200">
             <div class="container ml-b-40">
                 <div class="row justify-content-center">
-                    <div class="col-lg-9 col-md-10">
+                    <div class="col-lg-10 col-md-11">
                         <div class="section-title text-center" data-animate="hg-fadeInUp" data-duration="1.0s" data-offset="100">
                             <h4 class="title-sub">streamlined for simplicity</h4><!--  /.title-sub -->
                             <h2 class="title-main">Our workflow eliminates complexity to ensure clarity and swift execution</h2><!-- /.title-main -->
