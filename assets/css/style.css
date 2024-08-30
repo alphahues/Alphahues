@@ -273,7 +273,7 @@ h4 a:hover {
   }
 }
 .section-title .title-main > span {
-  color: #f94f4f;
+  color: #33BE8F;
 }
 .section-title .title-text {
   margin-bottom: 22px;
@@ -7401,7 +7401,7 @@ a:hover, a:active {
 }
 @media only screen and (max-width: 991px) {
   .service-block .service-card-list {
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
   .service-block .service-card-list .col-lg-6.pd-t-70 {
     padding-top: 0px;
@@ -13781,7 +13781,8 @@ input[type="checkbox"]::-ms-check {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #212529;
+  line-height: 30px;
+  color: #024162;
   text-align: left;
   background-color: #fff;
   border: 0;
@@ -13795,7 +13796,7 @@ input[type="checkbox"]::-ms-check {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #0c63e4;
+  color: #33BE8F;
   background-color: #e7f1ff;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
@@ -14047,12 +14048,15 @@ textarea.form-control {
     letter-spacing: -0.02em;
     color: white;
     background-color: #f75d5dee;
-    -webkit-box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
-    box-shadow: 3px 3px 11px rgba(198, 22, 22, 0.25);
+
   }
   .customGreenColor{
     color: #33BE8F;
     font-weight: 600;
+  }
+
+  .serviceGifCustomColor{
+    background-color: #fbfbfb;
   }
 
 
