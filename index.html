@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
+        #adjustrowservice{display: flex;justify-content: center;}
         @media screen and (max-width: 1199px){
             #logo1{display: none;}
             #social-status2{display: none;}
@@ -50,56 +51,41 @@
             #social-status1{display: none;}   
             .social-status a{color: #024162;}
         }
-        @media screen and (max-width: 369px)
+        @media screen and (max-width: 364px)
         {
-            .tvad{display: none;}
-        }
-        @media screen and (max-width: 409px) and (min-width: 376px)
-        {
-            .tvad{display: none;}
-        }
-        @media screen and (max-width: 469px) and (min-width: 426px)
-        {
-            .tvad{display: none;}
+            .tvad,.illustration,.carbranding{display: none;}
         }
         /* mediaquery for mobile resolution */
         @media screen and (max-width: 320px){
             #serviceanimation{height: 100px;width: 100px;}
-            #adjustrowservice{padding-left: 10px;padding-right: 10px;display: flex;justify-content: center;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
             #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 375px) and (min-width: 321px){
             #serviceanimation{height: 100px;width: 100px;}
-            #adjustrowservice{padding-left: 10px;padding-right: 10px;display: flex;justify-content: center;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
             #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 425px) and (min-width: 376px){
             #serviceanimation{height: 100px;width: 100px;}
-            #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
             #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 768px) and (min-width: 426px){
             #serviceanimation{height: 100px;width: 100px;}
-            #adjustrowservice{display: flex;justify-content: center;padding-left: 60px;padding-right: 60px;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 100px;}
             #clientadjustment{margin-top: 70px;} 
         }
         @media screen and (max-width: 1024px) and (min-width: 769px){
-            #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 130px;}
             #clientadjustment{margin-top: 100px;} 
         }
         @media screen and (max-width: 1440px) and (min-width: 1025px){
-            #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}
         }
         @media screen and (min-width: 1441px){
-            #adjustrowservice{display: flex;justify-content: center;padding-left: 30px;padding-right: 30px;}
             #ourclientheading{display: none;}
             #servicescroll , #aboutusscroll, #projectscroll, #testimonialscroll{position: relative;bottom: 150px;}    
         }
@@ -481,7 +467,7 @@
                     </div><!-- /.col-lg-5 -->
                     <div class="col-lg-6 p-3" id="homeservices">
                         <div class="service-card-list" >
-                            <div class="row " id="adjustrowservice">
+                            <div class="row" id="adjustrowservice">
                                 <a class="col-md-3 shadow m-2 h-50 rounded border serviceGifCustomColor" href="./Services/Graphic Design/GraphicDesign.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/digital-art.gif" alt="" class="p-3">
@@ -496,13 +482,14 @@
                                     </div>
                                 </a>
 
-                                <a class="col-md-3 shadow m-2 h-50 rounded border serviceGifCustomColor" href="./Services/Graphic Design/Illustration.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border serviceGifCustomColor illustration" href="./Services/Graphic Design/Illustration.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/digital.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Creative <br> Illustration</center></h6>
                                     </div>
-                                </a>
-
+                                </a>  
+                            </div><!-- /.col-lg-6 -->
+                            <div class="row" id="adjustrowservice">
                                 <a class="col-md-3 shadow m-2 h-50 rounded border serviceGifCustomColor" href="./Services/Digital Marketing/DigitalMarketing.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/press-day.gif" alt="" class="p-3">
@@ -523,7 +510,8 @@
                                         <h6 class="service-title mt-2"><center>Tv <br> Advertising</center></h6>
                                     </div>
                                 </a>
-                                                 
+                            </div>
+                            <div class="row" id="adjustrowservice">
                                 <a class="col-md-3 shadow m-2 h-50 rounded border serviceGifCustomColor" href="./Services/Outdoor Advertising/BusAdvertising.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/bus-journey.gif" alt="" class="p-3">
@@ -538,14 +526,14 @@
                                     </div>
                                 </a>
                     
-                                <a class="col-md-3 shadow m-2 h-50 rounded border serviceGifCustomColor" href="./Services/Outdoor Advertising/Carbranding.html" id="serviceanimation">
+                                <a class="col-md-3 shadow m-2 h-50 rounded border serviceGifCustomColor carbranding" href="./Services/Outdoor Advertising/Carbranding.html" id="serviceanimation">
                                     <div>
                                         <img src="./assets/images/Servicepagelogo/mini-car.gif" alt="" class="p-3">
                                         <h6 class="service-title mt-2"><center>Car <br> Branding</center></h6>
                                     </div>
                                 </a>
-                                </div><!-- /.col-lg-6 -->
-                            </div><!-- /.row -->
+                            </div> 
+                        </div><!-- /.row -->
                         </div><!-- /.service-card-list -->
                     </div><!-- /.col-lg-9 --> 
                 </div><!-- /.row -->
